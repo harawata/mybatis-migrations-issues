@@ -1,0 +1,8 @@
+CREATE TABLE costumer (
+ID INTEGER PRIMARY KEY,
+NAME VARCHAR(100)
+);
+
+-- //@UNDO
+
+DROP TABLE costumer;
